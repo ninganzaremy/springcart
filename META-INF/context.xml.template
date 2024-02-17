@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+  <Resource auth="Container"
+    driverClassName="org.postgresql.Driver"
+    maxIdle="5"
+    maxTotal="10"
+    minIdle="2"
+    name="jdbc/springcart"
+    password=""
+    type="javax.sql.DataSource"
+    url="jdbc:postgresql://localhost:5432/springcart"
+    username=""
+    validationQuery="SELECT 1" />
+</Context>
